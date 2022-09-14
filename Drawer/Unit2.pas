@@ -1,0 +1,31 @@
+unit Unit2;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, ComCtrls;
+
+type
+  TfrmSplash = class(TForm)
+    Label4: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Timer1: TTimer;
+    ProgressBar1: TProgressBar;
+    Label5: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSplash: TfrmSplash;
+
+implementation
+
+{$R *.dfm}
+
+end.
